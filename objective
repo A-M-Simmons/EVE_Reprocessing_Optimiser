@@ -1,0 +1,30 @@
+Determine most efficient ore selection to be reprocessed into specific minerals
+  Inputs:
+    - Mineral quantities
+    - Ore price
+    - Mineral Price
+    - Reprocessing %
+
+  Constraints: 
+   
+
+  Outputs:
+    - Ore quantites
+
+  Objective functions:
+    - Minimise Cost
+    - Minimise leftover value
+
+Mathematics:
+
+Constants:
+repro_i (Reprocessing % for ore i)
+
+Decision Variables:
+ore_i_qty = quantity of ore i
+
+Constraints:
+sum_i^n ore_i_qty_j * repro_i >= r_mineral_j_qty (total quantity of mineral j >= requested qty of mineral j)
+
+Objection functions
+sum_i^n 

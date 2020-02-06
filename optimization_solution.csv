@@ -1,0 +1,49 @@
+,variable_object,solution_value
+Veldspar,Variable_Veldspar,0.0
+Concentrated Veldspar (+5%),Variable_Concentrated_Veldspar_(_5%),0.0
+Dense Veldspar (+10%),Variable_Dense_Veldspar_(_10%),0.0
+Scordite,Variable_Scordite,0.0
+Condensed Scordite (+5%),Variable_Condensed_Scordite_(_5%),0.0
+Massive Scordite (+10%),Variable_Massive_Scordite_(_10%),0.0
+Pyroxeres,Variable_Pyroxeres,0.0
+Solid Pyroxeres (+5%),Variable_Solid_Pyroxeres_(_5%),0.0
+Viscous Pyroxeres (+10%),Variable_Viscous_Pyroxeres_(_10%),0.0
+Plagioclase,Variable_Plagioclase,0.0
+Azure Plagioclase (+5%),Variable_Azure_Plagioclase_(_5%),0.0
+Rich Plagioclase (+10%),Variable_Rich_Plagioclase_(_10%),0.0
+Omber,Variable_Omber,0.0
+Silvery Omber (+5%),Variable_Silvery_Omber_(_5%),0.0
+Golden Omber (+10%),Variable_Golden_Omber_(_10%),0.0
+Kernite,Variable_Kernite,0.0
+Luminous Kernite (+5%),Variable_Luminous_Kernite_(_5%),0.0
+Fiery Kernite (+10%),Variable_Fiery_Kernite_(_10%),0.0
+Jaspet,Variable_Jaspet,0.0
+Pure Jaspet (+5%),Variable_Pure_Jaspet_(_5%),0.0
+Pristine Jaspet (+10%),Variable_Pristine_Jaspet_(_10%),0.0
+Hemorphite,Variable_Hemorphite,0.0
+Vivid Hemorphite (+5%),Variable_Vivid_Hemorphite_(_5%),0.0
+Radiant Hemorphite (+10%),Variable_Radiant_Hemorphite_(_10%),0.0
+Hedbergite,Variable_Hedbergite,0.0
+Vitric Hedbergite (+5%),Variable_Vitric_Hedbergite_(_5%),0.0
+Glazed Hedbergite (+10%),Variable_Glazed_Hedbergite_(_10%),0.0
+Gneiss,Variable_Gneiss,0.0
+Iridescent Gneiss (+5%),Variable_Iridescent_Gneiss_(_5%),0.0
+Prismatic Gneiss (+10%),Variable_Prismatic_Gneiss_(_10%),0.0
+Dark Ochre,Variable_Dark_Ochre,0.0
+Onyx Ochre (+5%),Variable_Onyx_Ochre_(_5%),0.0
+Obsidian Ochre (+10%),Variable_Obsidian_Ochre_(_10%),66.0
+Spodumain,Variable_Spodumain,0.0
+Bright Spodumain (+5%),Variable_Bright_Spodumain_(_5%),0.0
+Gleaming Spodumain (+10%),Variable_Gleaming_Spodumain_(_10%),0.0
+Crokite,Variable_Crokite,0.0
+Sharp Crokite (+5%),Variable_Sharp_Crokite_(_5%),0.0
+Crystalline Crokite (+10%),Variable_Crystalline_Crokite_(_10%),127.0
+Bistot,Variable_Bistot,0.0
+Triclinic Bistot (+5%),Variable_Triclinic_Bistot_(_5%),0.0
+Monoclinic Bistot (+10%),Variable_Monoclinic_Bistot_(_10%),193.0
+Arkonor,Variable_Arkonor,0.0
+Crimson Arkonor (+5%),Variable_Crimson_Arkonor_(_5%),0.0
+Prime Arkonor (+10%),Variable_Prime_Arkonor_(_10%),265.0
+Mercoxit,Variable_Mercoxit,0.0
+Magma Mercoxit (+5%),Variable_Magma_Mercoxit_(_5%),0.0
+Vitreous Mercoxit (+10%),Variable_Vitreous_Mercoxit_(_10%),347.0
