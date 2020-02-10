@@ -2,6 +2,9 @@ import random
 import pandas as pd
 import pulp as plp
 
+from pkg_resources import resource_filename
+ore_csv_fp = resource_filename('EVEReprocessingSolver', 'ore.csv')
+
 from .models import Market_Prices
 from .models import Reprocessing
 from .models import Minerals
@@ -15,7 +18,7 @@ class Ore_Reprocessing_Solver(Market_Prices, Reprocessing, Minerals):
         # Get Market Prices
 
         # Load Base Ore
-        ore_base = pd.read_csv('EVEReprocessingSolver/ore.csv').fillna(0)
+        ore_base = pd.read_csv(ore_csv_fp).fillna(0)
 
         # List of Ores and Minerals
         ores = ore_base['Ore Type']
