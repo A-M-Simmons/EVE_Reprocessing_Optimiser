@@ -15,7 +15,7 @@ class Ore_Reprocessing_Solver(Market_Prices, Reprocessing, Minerals):
         # Get Market Prices
 
         # Load Base Ore
-        ore_base = pd.read_csv('ore.csv').fillna(0)
+        ore_base = pd.read_csv('EVEReprocessingSolver/ore.csv').fillna(0)
 
         # List of Ores and Minerals
         ores = ore_base['Ore Type']
