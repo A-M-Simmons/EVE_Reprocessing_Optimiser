@@ -4,6 +4,29 @@ import random
 import pandas as pd
 import pulp as plp
 
+regions = {}
+regions['F'] = ['Detorid', 'Cache', 'Insmother', 'Impass', 'Feythabolis', 'Tenerifis', 'Omist']
+regions['G'] = ['Stain', 'Esoteria', 'Querious', 'Paragon Soul', 'Delve',' Period Basis']
+regions['H'] = ['Vale of the Silent', 'Tribute', 'Venal', 'Geminate', 'Deklein', 'Tenal', 'Branch']
+regions['I'] = ['Wicked Creek', 'Scalding Pass', 'Great Wildlands', 'Curse', 'Catch', 'Immensea', 'Providence']
+regions['J'] = ['Pure Blind', 'Syndicate', 'Fade', 'Cloud Ring', 'Outer Ring', 'Fountain']
+regions['K'] = ['Cobalt Edge', 'Perrigen Falls', 'Malpais', 'Oasa', 'Kalevala Expanse', 'Outer Passage', 'Etherium Reach', 'The Spire']
+
+class Options():
+    only_compressed = False
+    sucurity_space = ""
+    def __init__(self):
+        pass
+
+    def add_regions(self, r):
+        for region in regions:
+            if r in regions[region] and region not in self.sucurity_space:
+                if len(self.sucurity_space) > 0:
+                    self.sucurity_space += '|' + region
+                else:
+                    self.sucurity_space += region
+
+
 class Market_Prices():
     def _set_mineral_price(self):
         pass

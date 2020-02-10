@@ -1,2 +1,2 @@
 include EVEReprocessingSolver/ore.csv
-include ore.csv
+include EVEReprocessingSolver/ore_prices.csv
