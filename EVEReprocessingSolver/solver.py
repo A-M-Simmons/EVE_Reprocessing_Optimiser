@@ -2,9 +2,9 @@ import random
 import pandas as pd
 import pulp as plp
 
-from models import Market_Prices
-from models import Reprocessing
-from models import Minerals
+from .models import Market_Prices
+from .models import Reprocessing
+from .models import Minerals
 
 class Ore_Reprocessing_Solver(Market_Prices, Reprocessing, Minerals):
     def solve(self):
