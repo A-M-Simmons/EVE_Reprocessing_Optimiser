@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Reprocessing-Solver-Alex-M-Simmons", # Replace with your own username
+    name="EVE_Reprocessing_Solver", # Replace with your own username
     version="0.0.1",
     author="Alex Simmons",
     author_email="author@example.com",
