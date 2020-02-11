@@ -12,7 +12,7 @@ from .models import Reprocessing
 from .models import Minerals
 from .models import Options
 
-ORE_REPROCESS_BATCH_SIZE = 100
+ORE_REPROCESS_BATCH_SIZE = 1
 class Ore_Reprocessing_Solver(Market_Prices, Reprocessing, Minerals, Options):
     solution = None
     def solve(self):
