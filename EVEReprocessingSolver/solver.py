@@ -55,7 +55,7 @@ class Ore_Reprocessing_Solver(Market_Prices, Reprocessing, Minerals, Options):
             for j in minerals}
 
         # Set Objective, x100 cause you actually need 100ore batch to reprocess for result
-        objective = plp.lpSum(ORE_REPROCESS_BATCH_SIZE*ore_qty_vars[i]*ore_prices[ore_prices['Ore Type']==i]['Sell'].item() for i in ores)
+        objective = plp.lpSum(ORE_REPROCESS_BATCH_SIZE*ore_qty_vars[i]*ore_prices[ore_prices['Ore Type']==i]['Buy'].item() for i in ores)
 
         # for minimization
         opt_model.sense = plp.LpMinimize
