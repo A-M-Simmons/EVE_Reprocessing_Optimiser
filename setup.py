@@ -11,7 +11,7 @@ install_requirements = [
 
 setuptools.setup(
     name="EVEReprocessingSolver", # Replace with your own username
-    version="0.0.8",
+    version="0.0.9",
     author="Alex Simmons",
     author_email="author@example.com",
     description="A Ore Solection Optimiser for Reprocessing",

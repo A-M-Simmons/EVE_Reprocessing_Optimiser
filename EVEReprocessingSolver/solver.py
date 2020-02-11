@@ -5,7 +5,7 @@ import pulp as plp
 
 from pkg_resources import resource_filename
 ore_csv_fp = resource_filename('EVEReprocessingSolver', 'ore.csv')
-ore_price_csv_fp = resource_filename('EVEReprocessingSolver', 'ore_prices.csv')
+ore_price_csv_fp = resource_filename('EVEReprocessingSolver', 'compressed_ore_prices.csv')
 
 from .models import Market_Prices
 from .models import Reprocessing
